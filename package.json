@@ -36,7 +36,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "rollup -c",
-        "start": "rollup -c -w"
+        "start": "rollup -c -w",
+	"postinstall": "npm run build"
     },
     "files": [
         "dist"
